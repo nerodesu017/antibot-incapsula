@@ -1,0 +1,26 @@
+{
+  "name": "antibot-incapsula",
+  "version": "1.0.0",
+  "description": "",
+  "main": "incapsula.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerodesu017/antibot-incapsula.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerodesu017/antibot-incapsula/issues"
+  },
+  "homepage": "https://github.com/nerodesu017/antibot-incapsula#readme",
+  "dependencies": {
+    "@babel/generator": "^7.14.1",
+    "@babel/parser": "^7.14.1",
+    "@babel/traverse": "^7.14.0",
+    "@babel/types": "^7.14.1",
+    "babel": "^6.23.0"
+  }
+}
