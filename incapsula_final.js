@@ -3,7 +3,7 @@ var aardvark = ["IcKvw4UDGRdTwrI=", "wo1eJMO/EQnCpQXDokdqTsKvw43DoWnDjj0O", "wrB
 (function (calf, cub) {
   var addax = function (agouti) {
     while (--agouti) {
-      calf["push"](calf["shift"]());
+      calf.push(calf.shift());
     }
   };
 
@@ -18,19 +18,19 @@ var aardvark = ["IcKvw4UDGRdTwrI=", "wo1eJMO/EQnCpQXDokdqTsKvw43DoWnDjj0O", "wrB
         var antelope = alpaca + "=" + cria;
         var ant = 0;
 
-        for (var ant = 0, antling = hatchling["length"]; ant < antling; ant++) {
+        for (var ant = 0, antling = hatchling.length; ant < antling; ant++) {
           var ape = hatchling[ant];
           antelope += "; " + ape;
           var baby = hatchling[ape];
-          hatchling["push"](baby);
-          antling = hatchling["length"];
+          hatchling.push(baby);
+          antling = hatchling.length;
 
-          if (baby !== !![]) {
+          if (baby !== true) {
             antelope += "=" + baby;
           }
         }
 
-        anteater["cookie"] = antelope;
+        anteater.cookie = antelope;
       },
       "removeCookie": function () {
         return "dev";
@@ -40,7 +40,7 @@ var aardvark = ["IcKvw4UDGRdTwrI=", "wo1eJMO/EQnCpQXDokdqTsKvw43DoWnDjj0O", "wrB
           return infant;
         };
 
-        var baboon = armadillo(new RegExp("(?:^|; )" + aye_aye["replace"](/([.$?*|{}()[]\/+^])/g, "$1") + "=([^;]*)"));
+        var baboon = armadillo(new RegExp("(?:^|; )" + aye_aye.replace(/([.$?*|{}()[]\/+^])/g, "$1") + "=([^;]*)"));
 
         var bat = function (bear, bee) {
           bear(++bee);
@@ -53,19 +53,19 @@ var aardvark = ["IcKvw4UDGRdTwrI=", "wo1eJMO/EQnCpQXDokdqTsKvw43DoWnDjj0O", "wrB
 
     var larva = function () {
       var beluga = new RegExp("\\w+ *\\(\\) *{\\w+ *['|\"].+['|\"];? *}");
-      return beluga["test"](alligator["removeCookie"]["toString"]());
+      return beluga.test(alligator.removeCookie.toString());
     };
 
-    alligator["updateCookie"] = larva;
+    alligator.updateCookie = larva;
     var binturong = "";
-    var bearcat = alligator["updateCookie"]();
+    var bearcat = alligator.updateCookie();
 
     if (!bearcat) {
-      alligator["setCookie"](["*"], "counter", 1);
+      alligator.setCookie(["*"], "counter", 1);
     } else if (bearcat) {
-      binturong = alligator["getCookie"](null, "counter");
+      binturong = alligator.getCookie(null, "counter");
     } else {
-      alligator["removeCookie"]();
+      alligator.removeCookie();
     }
   };
 
@@ -76,16 +76,16 @@ var kitten = function (bird, chick) {
   bird = bird - 0;
   var boar = aardvark[bird];
 
-  if (kitten["initialized"] === undefined) {
+  if (kitten.initialized === undefined) {
     (function () {
       var piglet = Function("return (function () " + "{}.constructor(\"return this\")()" + ");");
       var shoat = piglet();
       var farrow = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-      shoat["atob"] || (shoat["atob"] = function (bobcat) {
-        var bongo = String(bobcat)["replace"](/=+$/, "");
+      shoat.atob || (shoat.atob = function (bobcat) {
+        var bongo = String(bobcat).replace(/=+$/, "");
 
-        for (var bonobo = 0, butterfly, caterpillar, pupa = 0, chrysalis = ""; caterpillar = bongo["charAt"](pupa++); ~caterpillar && (butterfly = bonobo % 4 ? butterfly * 64 + caterpillar : caterpillar, bonobo++ % 4) ? chrysalis += String["fromCharCode"](255 & butterfly >> (-2 * bonobo & 6)) : 0) {
-          caterpillar = farrow["indexOf"](caterpillar);
+        for (var bonobo = 0, butterfly, caterpillar, pupa = 0, chrysalis = ""; caterpillar = bongo.charAt(pupa++); ~caterpillar && (butterfly = bonobo % 4 ? butterfly * 64 + caterpillar : caterpillar, bonobo++ % 4) ? chrysalis += String.fromCharCode(255 & butterfly >> (-2 * bonobo & 6)) : 0) {
+          caterpillar = farrow.indexOf(caterpillar);
         }
 
         return chrysalis;
@@ -100,8 +100,8 @@ var kitten = function (bird, chick) {
           pullet = "";
       caribou = atob(caribou);
 
-      for (var cockrell = 0, cicada = caribou["length"]; cockrell < cicada; cockrell++) {
-        pullet += "%" + ("00" + caribou["charCodeAt"](cockrell)["toString"](16))["slice"](-2);
+      for (var cockrell = 0, cicada = caribou.length; cockrell < cicada; cockrell++) {
+        pullet += "%" + ("00" + caribou.charCodeAt(cockrell).toString(16)).slice(-2);
       }
 
       caribou = decodeURIComponent(pullet);
@@ -111,7 +111,7 @@ var kitten = function (bird, chick) {
       }
 
       for (nymph = 0; nymph < 256; nymph++) {
-        cattle = (cattle + cat[nymph] + fawn["charCodeAt"](nymph % fawn["length"])) % 256;
+        cattle = (cattle + cat[nymph] + fawn.charCodeAt(nymph % fawn.length)) % 256;
         cheetah = cat[nymph];
         cat[nymph] = cat[cattle];
         cat[cattle] = cheetah;
@@ -120,67 +120,67 @@ var kitten = function (bird, chick) {
       nymph = 0;
       cattle = 0;
 
-      for (var clam = 0; clam < caribou["length"]; clam++) {
+      for (var clam = 0; clam < caribou.length; clam++) {
         nymph = (nymph + 1) % 256;
         cattle = (cattle + cat[nymph]) % 256;
         cheetah = cat[nymph];
         cat[nymph] = cat[cattle];
         cat[cattle] = cheetah;
-        chicken += String["fromCharCode"](caribou["charCodeAt"](clam) ^ cat[(cat[nymph] + cat[cattle]) % 256]);
+        chicken += String.fromCharCode(caribou.charCodeAt(clam) ^ cat[(cat[nymph] + cat[cattle]) % 256]);
       }
 
       return chicken;
     };
 
-    kitten["rc4"] = camel;
-    kitten["data"] = {};
-    kitten["initialized"] = !![];
+    kitten.rc4 = camel;
+    kitten.data = {};
+    kitten.initialized = true;
   }
 
-  var cockroach = kitten["data"][bird];
+  var cockroach = kitten.data[bird];
 
   if (cockroach === undefined) {
-    if (kitten["once"] === undefined) {
+    if (kitten.once === undefined) {
       var codfish = function (codling) {
-        this["rc4Bytes"] = codling;
-        this["states"] = [1, 0, 0];
+        this.rc4Bytes = codling;
+        this.states = [1, 0, 0];
 
-        this["newState"] = function () {
+        this.newState = function () {
           return "newState";
         };
 
-        this["firstState"] = "\\w+ *\\(\\) *{\\w+ *";
-        this["secondState"] = "['|\"].+['|\"];? *}";
+        this.firstState = "\\w+ *\\(\\) *{\\w+ *";
+        this.secondState = "['|\"].+['|\"];? *}";
       };
 
-      codfish["prototype"]["checkState"] = function () {
-        var hake = new RegExp(this["firstState"] + this["secondState"]);
-        return this["runState"](hake["test"](this["newState"]["toString"]()) ? --this["states"][1] : --this["states"][0]);
+      codfish.prototype.checkState = function () {
+        var hake = new RegExp(this.firstState + this.secondState);
+        return this.runState(hake.test(this.newState.toString()) ? --this.states[1] : --this.states[0]);
       };
 
-      codfish["prototype"]["runState"] = function (sprag) {
+      codfish.prototype.runState = function (sprag) {
         if (!Boolean(~sprag)) {
           return sprag;
         }
 
-        return this["getState"](this["rc4Bytes"]);
+        return this.getState(this.rc4Bytes);
       };
 
-      codfish["prototype"]["getState"] = function (sprat) {
-        for (var coyote = 0, whelp = this["states"]["length"]; coyote < whelp; coyote++) {
-          this["states"]["push"](Math["round"](Math["random"]()));
-          whelp = this["states"]["length"];
+      codfish.prototype.getState = function (sprat) {
+        for (var coyote = 0, whelp = this.states.length; coyote < whelp; coyote++) {
+          this.states.push(Math.round(Math.random()));
+          whelp = this.states.length;
         }
 
-        return sprat(this["states"][0]);
+        return sprat(this.states[0]);
       };
 
-      new codfish(kitten)["checkState"]();
-      kitten["once"] = !![];
+      new codfish(kitten).checkState();
+      kitten.once = true;
     }
 
-    boar = kitten["rc4"](boar, chick);
-    kitten["data"][bird] = boar;
+    boar = kitten.rc4(boar, chick);
+    kitten.data[bird] = boar;
   } else {
     boar = cockroach;
   }
@@ -221,68 +221,68 @@ var kitten = function (bird, chick) {
       return finch + fish;
     }
   };
-  var fry = "7|3|9|6|4|0|8|2|5|1"["split"]("|"),
+  var fry = "7|3|9|6|4|0|8|2|5|1".split("|"),
       fingerling = 0;
 
-  while (!![]) {
+  while (true) {
     switch (fry[fingerling++]) {
       case "0":
-        var fly = new maggot["Date"]()["getTime"]();
+        var fly = new maggot.Date().getTime();
         continue;
 
       case "1":
         try {
-          var fox = "1|2|3|5|4|0"["split"]("|"),
+          var fox = "1|2|3|5|4|0".split("|"),
               frog = 0;
 
-          while (!![]) {
+          while (true) {
             switch (fox[frog++]) {
               case "0":
-                tadpole["send"](null);
+                tadpole.send(null);
                 continue;
 
               case "1":
-                maggot["onunload"] = function () {
-                  polliwog[2] = froglet["NgI"]("r:", froglet["bUz"](new maggot["Date"]()["getTime"](), fly));
-                  gerbil["createElement"]("img")["src"] = "/_Incapsula_Resource?ES2LURCT=67&t=78&d=" + froglet["FKB"](giraffe, froglet["zZG"](froglet["zZG"](gnat, " ("), polliwog["join"]()) + ")");
+                maggot.onunload = function () {
+                  polliwog[2] = froglet.NgI("r:", froglet.bUz(new maggot.Date().getTime(), fly));
+                  gerbil.createElement("img").src = "/_Incapsula_Resource?ES2LURCT=67&t=78&d=" + froglet.FKB(giraffe, froglet.zZG(froglet.zZG(gnat, " ("), polliwog.join()) + ")");
                 };
 
                 continue;
 
               case "2":
-                if (maggot["XMLHttpRequest"]) {
-                  tadpole = new maggot["XMLHttpRequest"]();
+                if (maggot.XMLHttpRequest) {
+                  tadpole = new maggot.XMLHttpRequest();
                 } else {
-                  tadpole = new maggot["ActiveXObject"]("Microsoft.XMLHTTP");
+                  tadpole = new maggot.ActiveXObject("Microsoft.XMLHTTP");
                 }
 
                 continue;
 
               case "3":
-                tadpole["onreadystatechange"] = function () {
-                  switch (tadpole["readyState"]) {
+                tadpole.onreadystatechange = function () {
+                  switch (tadpole.readyState) {
                     case 0:
-                      gnat = froglet["gZt"](froglet["bUz"](new maggot["Date"]()["getTime"](), fly), ": request not initialized");
+                      gnat = froglet.gZt(froglet.bUz(new maggot.Date().getTime(), fly), ": request not initialized");
                       break;
 
                     case 1:
-                      gnat = froglet["PLi"](froglet["bUz"](new maggot["Date"]()["getTime"](), fly), ": server connection established");
+                      gnat = froglet.PLi(froglet.bUz(new maggot.Date().getTime(), fly), ": server connection established");
                       break;
 
                     case 2:
-                      gnat = froglet["PLi"](froglet["bUz"](new maggot["Date"]()["getTime"](), fly), ": request received");
+                      gnat = froglet.PLi(froglet.bUz(new maggot.Date().getTime(), fly), ": request received");
                       break;
 
                     case 3:
-                      gnat = froglet["bUz"](new maggot["Date"]()["getTime"](), fly) + ": processing request";
+                      gnat = froglet.bUz(new maggot.Date().getTime(), fly) + ": processing request";
                       break;
 
                     case 4:
                       gnat = "complete";
-                      polliwog[1] = froglet["PLi"]("c:", new maggot["Date"]()["getTime"]() - fly);
+                      polliwog[1] = froglet.PLi("c:", new maggot.Date().getTime() - fly);
 
-                      if (tadpole["status"] == 200) {
-                        maggot["location"]["reload"]();
+                      if (tadpole.status == 200) {
+                        maggot.location.reload();
                       }
 
                       break;
@@ -292,28 +292,28 @@ var kitten = function (bird, chick) {
                 continue;
 
               case "4":
-                tadpole["open"]("GET", crane["zxm"]("/_Incapsula_Resource?SWHANEDL=", gnu), ![]);
+                tadpole.open("GET", crane.zxm("/_Incapsula_Resource?SWHANEDL=", gnu), false);
                 continue;
 
               case "5":
-                polliwog[0] = crane["SaK"]("s:", crane["iZP"](new maggot["Date"]()["getTime"](), fly));
+                polliwog[0] = crane.SaK("s:", crane.iZP(new maggot.Date().getTime(), fly));
                 continue;
             }
 
             break;
           }
         } catch (goat) {
-          gnat += crane["SaK"](crane["CUB"](new maggot["Date"]()["getTime"](), fly) + " incap_exc: ", goat);
+          gnat += crane.SaK(crane.CUB(new maggot.Date().getTime(), fly) + " incap_exc: ", goat);
         }
 
         continue;
 
       case "2":
-        var polliwog = new maggot["Array"](3);
+        var polliwog = new maggot.Array(3);
         continue;
 
       case "3":
-        var maggot = this["window"];
+        var maggot = this.window;
         continue;
 
       case "4":
@@ -325,28 +325,28 @@ var kitten = function (bird, chick) {
         continue;
 
       case "6":
-        var giraffe = maggot["encodeURIComponent"];
+        var giraffe = maggot.encodeURIComponent;
         continue;
 
       case "7":
         var froglet = {
           "NgI": function kid(billy, goose) {
-            return crane["QOq"](billy, goose);
+            return crane.QOq(billy, goose);
           },
           "bUz": function gosling(gorilla, grasshopper) {
-            return crane["OmC"](gorilla, grasshopper);
+            return crane.OmC(gorilla, grasshopper);
           },
           "FKB": function grouse(poult, squealer) {
-            return crane["UXI"](poult, squealer);
+            return crane.UXI(poult, squealer);
           },
           "zZG": function cheeper(guinea_pig, pig) {
-            return crane["YIU"](guinea_pig, pig);
+            return crane.YIU(guinea_pig, pig);
           },
           "gZt": function gull(hamster, hare) {
-            return crane["UmV"](hamster, hare);
+            return crane.UmV(hamster, hare);
           },
           "PLi": function leveret(hawk, eyas) {
-            return crane["UmV"](hawk, eyas);
+            return crane.UmV(hawk, eyas);
           }
         };
         continue;
@@ -356,7 +356,7 @@ var kitten = function (bird, chick) {
         continue;
 
       case "9":
-        var gerbil = maggot["document"];
+        var gerbil = maggot.document;
         continue;
     }
 
@@ -369,7 +369,7 @@ var hedgehog = ["OiLDlMOLcELDhsOjCsOz", "I8K2w4nDhUIdw5sYUcKhKg==", "NMK2w6HDo38
 (function (heron, hippopotamus) {
   var hog = function (honey_badger) {
     while (--honey_badger) {
-      heron["push"](heron["shift"]());
+      heron.push(heron.shift());
     }
   };
 
@@ -384,19 +384,19 @@ var hedgehog = ["OiLDlMOLcELDhsOjCsOz", "I8K2w4nDhUIdw5sYUcKhKg==", "NMK2w6HDo38
         var youngster = stat + "=" + stag;
         var yearling = 0;
 
-        for (var yearling = 0, hogget = filly["length"]; yearling < hogget; yearling++) {
+        for (var yearling = 0, hogget = filly.length; yearling < hogget; yearling++) {
           var hound = filly[yearling];
           youngster += "; " + hound;
           var human = filly[hound];
-          filly["push"](human);
-          hogget = filly["length"];
+          filly.push(human);
+          hogget = filly.length;
 
-          if (human !== !![]) {
+          if (human !== true) {
             youngster += "=" + human;
           }
         }
 
-        hog_colt["cookie"] = youngster;
+        hog_colt.cookie = youngster;
       },
       "removeCookie": function () {
         return "dev";
@@ -406,7 +406,7 @@ var hedgehog = ["OiLDlMOLcELDhsOjCsOz", "I8K2w4nDhUIdw5sYUcKhKg==", "NMK2w6HDo38
           return hyena;
         };
 
-        var jay = toddler(new RegExp("(?:^|; )" + hummingbird["replace"](/([.$?*|{}()[]\/+^])/g, "$1") + "=([^;]*)"));
+        var jay = toddler(new RegExp("(?:^|; )" + hummingbird.replace(/([.$?*|{}()[]\/+^])/g, "$1") + "=([^;]*)"));
 
         var jellyfish = function (ephyna, kangaroo) {
           ephyna(++kangaroo);
@@ -419,19 +419,19 @@ var hedgehog = ["OiLDlMOLcELDhsOjCsOz", "I8K2w4nDhUIdw5sYUcKhKg==", "NMK2w6HDo38
 
     var joey = function () {
       var koala = new RegExp("\\w+ *\\(\\) *{\\w+ *['|\"].+['|\"];? *}");
-      return koala["test"](horse["removeCookie"]["toString"]());
+      return koala.test(horse.removeCookie.toString());
     };
 
-    horse["updateCookie"] = joey;
+    horse.updateCookie = joey;
     var lark = "";
-    var lemur = horse["updateCookie"]();
+    var lemur = horse.updateCookie();
 
     if (!lemur) {
-      horse["setCookie"](["*"], "counter", 1);
+      horse.setCookie(["*"], "counter", 1);
     } else if (lemur) {
-      lark = horse["getCookie"](null, "counter");
+      lark = horse.getCookie(null, "counter");
     } else {
-      horse["removeCookie"]();
+      horse.removeCookie();
     }
   };
 
@@ -442,16 +442,16 @@ var leopard = function (llama, louse) {
   llama = llama - 0;
   var nit = hedgehog[llama];
 
-  if (leopard["initialized"] === undefined) {
+  if (leopard.initialized === undefined) {
     (function () {
       var magpie = Function("return (function () " + "{}.constructor(\"return this\")()" + ");");
       var mallard = magpie();
       var manatee = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-      mallard["atob"] || (mallard["atob"] = function (mole) {
-        var monkey = String(mole)["replace"](/=+$/, "");
+      mallard.atob || (mallard.atob = function (mole) {
+        var monkey = String(mole).replace(/=+$/, "");
 
-        for (var moose = 0, mosquito, wriggler, tumbler = 0, mouse = ""; wriggler = monkey["charAt"](tumbler++); ~wriggler && (mosquito = moose % 4 ? mosquito * 64 + wriggler : wriggler, moose++ % 4) ? mouse += String["fromCharCode"](255 & mosquito >> (-2 * moose & 6)) : 0) {
-          wriggler = manatee["indexOf"](wriggler);
+        for (var moose = 0, mosquito, wriggler, tumbler = 0, mouse = ""; wriggler = monkey.charAt(tumbler++); ~wriggler && (mosquito = moose % 4 ? mosquito * 64 + wriggler : wriggler, moose++ % 4) ? mouse += String.fromCharCode(255 & mosquito >> (-2 * moose & 6)) : 0) {
+          wriggler = manatee.indexOf(wriggler);
         }
 
         return mouse;
@@ -466,8 +466,8 @@ var leopard = function (llama, louse) {
           owl = "";
       mule = atob(mule);
 
-      for (var owlet = 0, ox = mule["length"]; owlet < ox; owlet++) {
-        owl += "%" + ("00" + mule["charCodeAt"](owlet)["toString"](16))["slice"](-2);
+      for (var owlet = 0, ox = mule.length; owlet < ox; owlet++) {
+        owl += "%" + ("00" + mule.charCodeAt(owlet).toString(16)).slice(-2);
       }
 
       mule = decodeURIComponent(owl);
@@ -477,7 +477,7 @@ var leopard = function (llama, louse) {
       }
 
       for (stot = 0; stot < 256; stot++) {
-        opossum = (opossum + nightingale[stot] + muskrat["charCodeAt"](stot % muskrat["length"])) % 256;
+        opossum = (opossum + nightingale[stot] + muskrat.charCodeAt(stot % muskrat.length)) % 256;
         ostrich = nightingale[stot];
         nightingale[stot] = nightingale[opossum];
         nightingale[opossum] = ostrich;
@@ -486,67 +486,67 @@ var leopard = function (llama, louse) {
       stot = 0;
       opossum = 0;
 
-      for (var oyster = 0; oyster < mule["length"]; oyster++) {
+      for (var oyster = 0; oyster < mule.length; oyster++) {
         stot = (stot + 1) % 256;
         opossum = (opossum + nightingale[stot]) % 256;
         ostrich = nightingale[stot];
         nightingale[stot] = nightingale[opossum];
         nightingale[opossum] = ostrich;
-        otter += String["fromCharCode"](mule["charCodeAt"](oyster) ^ nightingale[(nightingale[stot] + nightingale[opossum]) % 256]);
+        otter += String.fromCharCode(mule.charCodeAt(oyster) ^ nightingale[(nightingale[stot] + nightingale[opossum]) % 256]);
       }
 
       return otter;
     };
 
-    leopard["rc4"] = pinkie;
-    leopard["data"] = {};
-    leopard["initialized"] = !![];
+    leopard.rc4 = pinkie;
+    leopard.data = {};
+    leopard.initialized = true;
   }
 
-  var spat = leopard["data"][llama];
+  var spat = leopard.data[llama];
 
   if (spat === undefined) {
-    if (leopard["once"] === undefined) {
+    if (leopard.once === undefined) {
       var panda = function (parrot) {
-        this["rc4Bytes"] = parrot;
-        this["states"] = [1, 0, 0];
+        this.rc4Bytes = parrot;
+        this.states = [1, 0, 0];
 
-        this["newState"] = function () {
+        this.newState = function () {
           return "newState";
         };
 
-        this["firstState"] = "\\w+ *\\(\\) *{\\w+ *";
-        this["secondState"] = "['|\"].+['|\"];? *}";
+        this.firstState = "\\w+ *\\(\\) *{\\w+ *";
+        this.secondState = "['|\"].+['|\"];? *}";
       };
 
-      panda["prototype"]["checkState"] = function () {
-        var partridge = new RegExp(this["firstState"] + this["secondState"]);
-        return this["runState"](partridge["test"](this["newState"]["toString"]()) ? --this["states"][1] : --this["states"][0]);
+      panda.prototype.checkState = function () {
+        var partridge = new RegExp(this.firstState + this.secondState);
+        return this.runState(partridge.test(this.newState.toString()) ? --this.states[1] : --this.states[0]);
       };
 
-      panda["prototype"]["runState"] = function (peacock) {
+      panda.prototype.runState = function (peacock) {
         if (!Boolean(~peacock)) {
           return peacock;
         }
 
-        return this["getState"](this["rc4Bytes"]);
+        return this.getState(this.rc4Bytes);
       };
 
-      panda["prototype"]["getState"] = function (peachick) {
-        for (var penguin = 0, pheasant = this["states"]["length"]; penguin < pheasant; penguin++) {
-          this["states"]["push"](Math["round"](Math["random"]()));
-          pheasant = this["states"]["length"];
+      panda.prototype.getState = function (peachick) {
+        for (var penguin = 0, pheasant = this.states.length; penguin < pheasant; penguin++) {
+          this.states.push(Math.round(Math.random()));
+          pheasant = this.states.length;
         }
 
-        return peachick(this["states"][0]);
+        return peachick(this.states[0]);
       };
 
-      new panda(leopard)["checkState"]();
-      leopard["once"] = !![];
+      new panda(leopard).checkState();
+      leopard.once = true;
     }
 
-    nit = leopard["rc4"](nit, louse);
-    leopard["data"][llama] = nit;
+    nit = leopard.rc4(nit, louse);
+    leopard.data[llama] = nit;
   } else {
     nit = spat;
   }
@@ -556,16 +556,16 @@ var leopard = function (llama, louse) {
 
 (function () {
   var pigeon = function () {
-    var squeaker = !![];
+    var squeaker = true;
     return function (platypus, porcupine) {
       var porcupette = squeaker ? function () {
         if (porcupine) {
-          var porpoise = porcupine["apply"](platypus, arguments);
+          var porpoise = porcupine.apply(platypus, arguments);
           porcupine = null;
           return porpoise;
         }
       } : function () {};
-      squeaker = ![];
+      squeaker = false;
       return porcupette;
     };
   }();
@@ -692,19 +692,19 @@ var leopard = function (llama, louse) {
       return midnight_blue_color + true_blue_color;
     }
   };
-  var cerulean_blue_color = this["window"];
-  var cornflower_blue_color = cerulean_blue_color["document"];
+  var cerulean_blue_color = this.window;
+  var cornflower_blue_color = cerulean_blue_color.document;
   var sky_blue_color = "";
   var electric_blue_color = "";
 
-  if (possum["OVN"](typeof cerulean_blue_color["console"], "undefined")) {
-    sky_blue_color = cerulean_blue_color["console"];
-    electric_blue_color = sky_blue_color["log"];
+  if (possum.OVN(typeof cerulean_blue_color.console, "undefined")) {
+    sky_blue_color = cerulean_blue_color.console;
+    electric_blue_color = sky_blue_color.log;
   }
 
-  var dark_blue_color = cerulean_blue_color["navigator"];
-  var prussian_blue_color = cerulean_blue_color["encodeURIComponent"];
-  var ultramarine_color = new cerulean_blue_color["Date"]()["getTime"]();
+  var dark_blue_color = cerulean_blue_color.navigator;
+  var prussian_blue_color = cerulean_blue_color.encodeURIComponent;
+  var ultramarine_color = new cerulean_blue_color.Date().getTime();
   var sapphire_blue_color = "";
 
   function carolina_blue_color(neon_blue_color) {
@@ -752,30 +752,30 @@ var leopard = function (llama, louse) {
         return clementine >> cucumbers;
       }
     };
-    var damson_plum = "5|3|4|2|1|6|0|7"["split"]("|"),
+    var damson_plum = "5|3|4|2|1|6|0|7".split("|"),
         dinosaur_eggs = 0;
 
-    while (!![]) {
+    while (true) {
       switch (damson_plum[dinosaur_eggs++]) {
         case "0":
-          while (powder_blue_color["MTY"](pluots, dates)) {
-            var dewberries = "3|2|5|6|1|7|8|4|0"["split"]("|"),
+          while (powder_blue_color.MTY(pluots, dates)) {
+            var dewberries = "3|2|5|6|1|7|8|4|0".split("|"),
                 dragon_fruit = 0;
 
-            while (!![]) {
+            while (true) {
               switch (dewberries[dragon_fruit++]) {
                 case "0":
-                  elderberry += eggfruit["charAt"](powder_blue_color["ave"](evergreen_huckleberry, 63));
+                  elderberry += eggfruit.charAt(powder_blue_color.ave(evergreen_huckleberry, 63));
                   continue;
 
                 case "1":
-                  evergreen_huckleberry = neon_blue_color["charCodeAt"](pluots++);
+                  evergreen_huckleberry = neon_blue_color.charCodeAt(pluots++);
                   continue;
 
                 case "2":
-                  if (powder_blue_color["iRl"](pluots, dates)) {
-                    elderberry += eggfruit["charAt"](powder_blue_color["Oxo"](entawak, 2));
-                    elderberry += eggfruit["charAt"](powder_blue_color["fAX"](powder_blue_color["ave"](entawak, 3), 4));
+                  if (powder_blue_color.iRl(pluots, dates)) {
+                    elderberry += eggfruit.charAt(powder_blue_color.Oxo(entawak, 2));
+                    elderberry += eggfruit.charAt(powder_blue_color.fAX(powder_blue_color.ave(entawak, 3), 4));
                     elderberry += "==";
                     break;
                   }
@@ -783,22 +783,22 @@ var leopard = function (llama, louse) {
                   continue;
 
                 case "3":
-                  entawak = neon_blue_color["charCodeAt"](pluots++) & 255;
+                  entawak = neon_blue_color.charCodeAt(pluots++) & 255;
                   continue;
 
                 case "4":
-                  elderberry += eggfruit["charAt"](powder_blue_color["fAX"](powder_blue_color["ave"](fig, 15), 2) | powder_blue_color["CqT"](evergreen_huckleberry & 192, 6));
+                  elderberry += eggfruit.charAt(powder_blue_color.fAX(powder_blue_color.ave(fig, 15), 2) | powder_blue_color.CqT(evergreen_huckleberry & 192, 6));
                   continue;
 
                 case "5":
-                  fig = neon_blue_color["charCodeAt"](pluots++);
+                  fig = neon_blue_color.charCodeAt(pluots++);
                   continue;
 
                 case "6":
-                  if (powder_blue_color["hNk"](pluots, dates)) {
-                    elderberry += eggfruit["charAt"](powder_blue_color["Nyr"](entawak, 2));
-                    elderberry += eggfruit["charAt"](powder_blue_color["tNu"](powder_blue_color["vWO"](powder_blue_color["ave"](entawak, 3), 4), powder_blue_color["Nyr"](powder_blue_color["ave"](fig, 240), 4)));
-                    elderberry += eggfruit["charAt"](powder_blue_color["vWO"](powder_blue_color["ave"](fig, 15), 2));
+                  if (powder_blue_color.hNk(pluots, dates)) {
+                    elderberry += eggfruit.charAt(powder_blue_color.Nyr(entawak, 2));
+                    elderberry += eggfruit.charAt(powder_blue_color.tNu(powder_blue_color.vWO(powder_blue_color.ave(entawak, 3), 4), powder_blue_color.Nyr(powder_blue_color.ave(fig, 240), 4)));
+                    elderberry += eggfruit.charAt(powder_blue_color.vWO(powder_blue_color.ave(fig, 15), 2));
                     elderberry += "=";
                     break;
                   }
@@ -806,11 +806,11 @@ var leopard = function (llama, louse) {
                   continue;
 
                 case "7":
-                  elderberry += eggfruit["charAt"](powder_blue_color["Nyr"](entawak, 2));
+                  elderberry += eggfruit.charAt(powder_blue_color.Nyr(entawak, 2));
                   continue;
 
                 case "8":
-                  elderberry += eggfruit["charAt"](powder_blue_color["Hls"](powder_blue_color["wse"](powder_blue_color["mSG"](entawak, 3), 4), powder_blue_color["IHd"](powder_blue_color["mSG"](fig, 240), 4)));
+                  elderberry += eggfruit.charAt(powder_blue_color.Hls(powder_blue_color.wse(powder_blue_color.mSG(entawak, 3), 4), powder_blue_color.IHd(powder_blue_color.mSG(fig, 240), 4)));
                   continue;
               }
 
@@ -825,7 +825,7 @@ var leopard = function (llama, louse) {
           continue;
 
         case "2":
-          dates = neon_blue_color["length"];
+          dates = neon_blue_color.length;
           continue;
 
         case "3":
@@ -864,18 +864,18 @@ var leopard = function (llama, louse) {
 
       var guava = function () {
         var honeydew_melon = new RegExp("\\w+ *\\(\\) *{\\w+ *['|\"].+['|\"];? *}");
-        return !honeydew_melon["test"](grapes["toString"]());
+        return !honeydew_melon.test(grapes.toString());
       };
 
       var hackberry = function () {
         var honeycrisp_apples = new RegExp("(\\\\[x|u](\\w){2,4})+");
-        return honeycrisp_apples["test"](gooseberries["toString"]());
+        return honeycrisp_apples.test(gooseberries.toString());
       };
 
       var indian_prune = function (plum) {
         var indonesian_lime = ~-1 >> 1 + 255 % 0;
 
-        if (plum["indexOf"]("i" === indonesian_lime)) {
+        if (plum.indexOf("i" === indonesian_lime)) {
           imbe(plum);
         }
       };
@@ -883,7 +883,7 @@ var leopard = function (llama, louse) {
       var imbe = function (indian_fig) {
         var jackfruit = ~-4 >> 1 + 255 % 0;
 
-        if (indian_fig["indexOf"]((!![] + "")[3]) !== jackfruit) {
+        if (indian_fig.indexOf((true + "")[3]) !== jackfruit) {
           indian_prune(indian_fig);
         }
       };
@@ -901,12 +901,12 @@ var leopard = function (llama, louse) {
     grapefruit();
     var java_apple = {
       "kRd": function jambolan(kiwi, kaffir_lime) {
-        return possum["hDb"](kiwi, kaffir_lime);
+        return possum.hDb(kiwi, kaffir_lime);
       }
     };
     return function (kumquat) {
       sapphire_blue_color += kumquat;
-      return java_apple["kRd"](finger_lime, kumquat);
+      return java_apple.kRd(finger_lime, kumquat);
     };
   }
 
@@ -919,18 +919,18 @@ var leopard = function (llama, louse) {
         return mandarin_orange();
       }
     };
-    var mulberry = "2|3|5|0|4|1"["split"]("|"),
+    var mulberry = "2|3|5|0|4|1".split("|"),
         melon = 0;
 
-    while (!![]) {
+    while (true) {
       switch (mulberry[melon++]) {
         case "0":
-          for (var nectarine = 0; lemon["DKb"](nectarine, navel_orange["length"]); nectarine++) {
-            var nashi_pear = navel_orange[nectarine]["substr"](0, navel_orange[nectarine]["indexOf"]("="));
-            var asian_pear = navel_orange[nectarine]["substr"](navel_orange[nectarine]["indexOf"]("=") + 1, navel_orange[nectarine]["length"]);
+          for (var nectarine = 0; lemon.DKb(nectarine, navel_orange.length); nectarine++) {
+            var nashi_pear = navel_orange[nectarine].substr(0, navel_orange[nectarine].indexOf("="));
+            var asian_pear = navel_orange[nectarine].substr(navel_orange[nectarine].indexOf("=") + 1, navel_orange[nectarine].length);
 
-            if (olive["test"](nashi_pear)) {
-              oranges[oranges["length"]] = asian_pear;
+            if (olive.test(nashi_pear)) {
+              oranges[oranges.length] = asian_pear;
             }
           }
 
@@ -941,19 +941,19 @@ var leopard = function (llama, louse) {
           continue;
 
         case "2":
-          var oranges = new cerulean_blue_color["Array"]();
+          var oranges = new cerulean_blue_color.Array();
           continue;
 
         case "3":
-          var olive = new cerulean_blue_color["RegExp"]("^\\s?incap_ses_");
+          var olive = new cerulean_blue_color.RegExp("^\\s?incap_ses_");
           continue;
 
         case "4":
-          lemon["BIG"](ogeechee_limes);
+          lemon.BIG(ogeechee_limes);
           continue;
 
         case "5":
-          var navel_orange = cornflower_blue_color["cookie"]["split"](";");
+          var navel_orange = cornflower_blue_color.cookie.split(";");
           continue;
       }
 
@@ -1003,17 +1003,17 @@ var leopard = function (llama, louse) {
         return zucchini < abraxas;
       }
     };
-    var achilles = "2|0|6|11|17|7|9|12|5|14|10|15|16|8|1|3|13|18|4"["split"]("|"),
+    var achilles = "2|0|6|11|17|7|9|12|5|14|10|15|16|8|1|3|13|18|4".split("|"),
         adonis = 0;
 
-    while (!![]) {
+    while (true) {
       switch (achilles[adonis++]) {
         case "0":
           var ajax = lime();
           continue;
 
         case "1":
-          persimmon["ZKV"](ogeechee_limes);
+          persimmon.ZKV(ogeechee_limes);
           continue;
 
         case "2":
@@ -1021,22 +1021,22 @@ var leopard = function (llama, louse) {
           continue;
 
         case "3":
-          hedgehog["push"](persimmon["lGq"](btoa, papaya));
+          hedgehog.push(persimmon.lGq(btoa, papaya));
           continue;
 
         case "4":
-          persimmon["aEo"](argo, "___utmvc", apollo, 20);
+          persimmon.aEo(argo, "___utmvc", apollo, 20);
           continue;
 
         case "5":
-          for (var ares = 0; persimmon["SBn"](ares, 4); ares++) {
+          for (var ares = 0; persimmon.SBn(ares, 4); ares++) {
             atlas += cadmus[ares];
           }
 
           continue;
 
         case "6":
-          var castor = new cerulean_blue_color["Array"](ajax["length"]);
+          var castor = new cerulean_blue_color.Array(ajax.length);
           continue;
 
         case "7":
@@ -1044,8 +1044,8 @@ var leopard = function (llama, louse) {
           continue;
 
         case "8":
-          for (var cronus = 0; cronus < damon["length"]; cronus++) {
-            dionysius += persimmon["SRZ"](damon["charCodeAt"](cronus), endymion["charCodeAt"](persimmon["rEm"](cronus, endymion["length"])))["toString"](16);
+          for (var cronus = 0; cronus < damon.length; cronus++) {
+            dionysius += persimmon.SRZ(damon.charCodeAt(cronus), endymion.charCodeAt(persimmon.rEm(cronus, endymion.length))).toString(16);
           }
 
           continue;
@@ -1063,7 +1063,7 @@ var leopard = function (llama, louse) {
             eryx += eros[griffin];
           }
 
-          for (var hades = 3; hades < eros["length"]; hades++) {
+          for (var hades = 3; hades < eros.length; hades++) {
             evander += eros[hades];
           }
 
@@ -1075,7 +1075,7 @@ var leopard = function (llama, louse) {
             helios += hector[hermes];
           }
 
-          for (var homer = 4; homer < hector["length"]; homer++) {
+          for (var homer = 4; homer < hector.length; homer++) {
             herakles += hector[homer];
           }
 
@@ -1087,7 +1087,7 @@ var leopard = function (llama, louse) {
             janus += icarus[leander];
           }
 
-          for (var morpheus = 3; morpheus < icarus["length"]; morpheus++) {
+          for (var morpheus = 3; morpheus < icarus.length; morpheus++) {
             jason += icarus[morpheus];
           }
 
@@ -1095,8 +1095,8 @@ var leopard = function (llama, louse) {
           continue;
 
         case "11":
-          for (var cronus = 0; cronus < ajax["length"]; cronus++) {
-            castor[cronus] = persimmon["NhU"](nereus, persimmon["TBi"](papaya, ajax[cronus]));
+          for (var cronus = 0; cronus < ajax.length; cronus++) {
+            castor[cronus] = persimmon.NhU(nereus, persimmon.TBi(papaya, ajax[cronus]));
           }
 
           continue;
@@ -1106,18 +1106,18 @@ var leopard = function (llama, louse) {
           continue;
 
         case "13":
-          apollo = persimmon["tFx"](btoa, persimmon["TBi"](persimmon["TBi"](persimmon["aPL"](persimmon["aPL"](leopard(persimmon["xVO"](hedgehog["length"], 1), damon["substr"](0, 5)), ",digest="), endymion), ",s="), dionysius));
+          apollo = persimmon.tFx(btoa, persimmon.TBi(persimmon.TBi(persimmon.aPL(persimmon.aPL(leopard(persimmon.xVO(hedgehog.length, 1), damon.substr(0, 5)), ",digest="), endymion), ",s="), dionysius));
           continue;
 
         case "14":
-          for (var odysseus = 4; persimmon["sWz"](odysseus, cadmus["length"]); odysseus++) {
+          for (var odysseus = 4; persimmon.sWz(odysseus, cadmus.length); odysseus++) {
             oceanus += cadmus[odysseus];
           }
 
           continue;
 
         case "15":
-          var endymion = castor["join"]();
+          var endymion = castor.join();
           continue;
 
         case "16":
@@ -1129,7 +1129,7 @@ var leopard = function (llama, louse) {
           continue;
 
         case "18":
-          hedgehog["pop"]();
+          hedgehog.pop();
           continue;
       }
 
@@ -1140,11 +1140,11 @@ var leopard = function (llama, louse) {
   function nereus(olimpio) {
     var orion = 0;
 
-    for (var orpheus = 0; possum["IZV"](orpheus, olimpio["length"]); orpheus++) {
-      orion += olimpio["charCodeAt"](orpheus);
+    for (var orpheus = 0; possum.IZV(orpheus, olimpio.length); orpheus++) {
+      orion += olimpio.charCodeAt(orpheus);
     }
 
-    possum["uXN"](ogeechee_limes);
+    possum.uXN(ogeechee_limes);
     return orion;
   }
 
@@ -1152,35 +1152,35 @@ var leopard = function (llama, louse) {
     var perseus = "";
 
     if (parthenios) {
-      var pollux = new cerulean_blue_color["Date"]();
-      pollux["setTime"](possum["YCa"](pollux["getTime"](), possum["VxH"](parthenios, 1000)));
-      var perseus = possum["YCa"]("; expires=", pollux["toGMTString"]());
+      var pollux = new cerulean_blue_color.Date();
+      pollux.setTime(possum.YCa(pollux.getTime(), possum.VxH(parthenios, 1000)));
+      var perseus = possum.YCa("; expires=", pollux.toGMTString());
     }
 
-    cornflower_blue_color["cookie"] = possum["YCa"](possum["Gbh"](possum["Gbh"](possum["ggX"](pan, "="), paris), perseus), "; path=/");
+    cornflower_blue_color.cookie = possum.YCa(possum.Gbh(possum.Gbh(possum.ggX(pan, "="), paris), perseus), "; path=/");
   }
 
   function poseidon() {
     function priam(pyramus) {
-      if (possum["OVN"](possum["ggX"]("", possum["MkP"](pyramus, pyramus))["length"], 1) || possum["DNd"](possum["olk"](pyramus, 20), 0)) {
-        (function () {})["constructor"]("debugger")();
+      if (possum.OVN(possum.ggX("", possum.MkP(pyramus, pyramus)).length, 1) || possum.DNd(possum.olk(pyramus, 20), 0)) {
+        (function () {}).constructor("debugger")();
       } else {
-        (function () {})["constructor"]("debugger")();
+        (function () {}).constructor("debugger")();
       }
 
-      return possum["hDb"](priam, ++pyramus);
+      return possum.hDb(priam, ++pyramus);
     }
 
     try {
-      return possum["hDb"](priam, 0);
+      return possum.hDb(priam, 0);
     } catch (thanatos) {}
   }
 
   ;
 
   function ogeechee_limes() {
-    if (possum["WqR"](possum["hOK"](new cerulean_blue_color["Date"]()["getTime"](), ultramarine_color), 500)) {
-      possum["unk"](poseidon);
+    if (possum.WqR(possum.hOK(new cerulean_blue_color.Date().getTime(), ultramarine_color), 500)) {
+      possum.unk(poseidon);
     }
   }
 
@@ -1188,19 +1188,19 @@ var leopard = function (llama, louse) {
     var troy = "";
     var troilus = new Array();
 
-    for (var zephyr = 0; possum["Srj"](zephyr, triton["length"]); zephyr++) {
+    for (var zephyr = 0; possum.Srj(zephyr, triton.length); zephyr++) {
       var zeus = triton[zephyr][0];
 
       switch (triton[zephyr][1]) {
         case "exists":
           try {
-            if (possum["OVN"](typeof cerulean_blue_color["eval"](zeus), "undefined")) {
-              troilus[troilus["length"]] = possum["hDb"](prussian_blue_color, possum["wyV"](zeus, "=true"));
+            if (possum.OVN(typeof cerulean_blue_color.eval(zeus), "undefined")) {
+              troilus[troilus.length] = possum.hDb(prussian_blue_color, possum.wyV(zeus, "=true"));
             } else {
-              troilus[troilus["length"]] = possum["hDb"](prussian_blue_color, possum["EgU"](zeus, "=false"));
+              troilus[troilus.length] = possum.hDb(prussian_blue_color, possum.EgU(zeus, "=false"));
             }
           } catch (acantha) {
-            troilus[troilus["length"]] = possum["hDb"](prussian_blue_color, possum["EgU"](zeus, "=false"));
+            troilus[troilus.length] = possum.hDb(prussian_blue_color, possum.EgU(zeus, "=false"));
           }
 
           break;
@@ -1208,44 +1208,44 @@ var leopard = function (llama, louse) {
         case "value":
           try {
             try {
-              troy = cerulean_blue_color["eval"](zeus);
+              troy = cerulean_blue_color.eval(zeus);
 
-              if (possum["pGN"](typeof troy, "undefined")) {
-                troilus[troilus["length"]] = possum["KBe"](prussian_blue_color, possum["EgU"](zeus, "=undefined"));
-              } else if (possum["fcP"](troy, null)) {
-                troilus[troilus["length"]] = possum["PFF"](prussian_blue_color, zeus + "=null");
+              if (possum.pGN(typeof troy, "undefined")) {
+                troilus[troilus.length] = possum.KBe(prussian_blue_color, possum.EgU(zeus, "=undefined"));
+              } else if (possum.fcP(troy, null)) {
+                troilus[troilus.length] = possum.PFF(prussian_blue_color, zeus + "=null");
               } else {
-                troilus[troilus["length"]] = possum["EfW"](prussian_blue_color, possum["EgU"](possum["EgU"](zeus, "="), troy["toString"]()));
+                troilus[troilus.length] = possum.EfW(prussian_blue_color, possum.EgU(possum.EgU(zeus, "="), troy.toString()));
               }
             } catch (alala) {
-              troilus[troilus["length"]] = possum["EfW"](prussian_blue_color, possum["EgU"](zeus, "=cannot evaluate"));
+              troilus[troilus.length] = possum.EfW(prussian_blue_color, possum.EgU(zeus, "=cannot evaluate"));
               break;
             }
 
             break;
           } catch (althea) {
-            troilus[troilus["length"]] = possum["nVI"](prussian_blue_color, possum["Wkq"](zeus, "=") + althea);
+            troilus[troilus.length] = possum.nVI(prussian_blue_color, possum.Wkq(zeus, "=") + althea);
           }
 
           break;
 
         case "plugin_extentions":
           try {
-            var andromeda = "3|1|0|4|2"["split"]("|"),
+            var andromeda = "3|1|0|4|2".split("|"),
                 anthea = 0;
 
-            while (!![]) {
+            while (true) {
               switch (andromeda[anthea++]) {
                 case "0":
                   try {
-                    var aphrodite = dark_blue_color["plugins"]["length"];
+                    var aphrodite = dark_blue_color.plugins.length;
 
-                    if (possum["ABJ"](aphrodite, 0) || aphrodite == null) {
-                      troilus[troilus["length"]] = prussian_blue_color("plugin_ext=no plugins");
+                    if (possum.ABJ(aphrodite, 0) || aphrodite == null) {
+                      troilus[troilus.length] = prussian_blue_color("plugin_ext=no plugins");
                       break;
                     }
                   } catch (ariadne) {
-                    troilus[troilus["length"]] = possum["qZx"](prussian_blue_color, "plugin_ext=cannot evaluate");
+                    troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=cannot evaluate");
                     break;
                   }
 
@@ -1253,17 +1253,17 @@ var leopard = function (llama, louse) {
 
                 case "1":
                   try {
-                    arete = artemis["indexOf"]("i");
+                    arete = artemis.indexOf("i");
                   } catch (asia) {
-                    troilus[troilus["length"]] = possum["qZx"](prussian_blue_color, "plugin_ext=indexOf is not a function");
+                    troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=indexOf is not a function");
                     break;
                   }
 
                   continue;
 
                 case "2":
-                  for (var arete = 0; possum["Srj"](arete, artemis["length"]); arete++) {
-                    troilus[troilus["length"]] = possum["qZx"](prussian_blue_color, possum["Rlu"]("plugin_ext=", artemis[arete]));
+                  for (var arete = 0; possum.Srj(arete, artemis.length); arete++) {
+                    troilus[troilus.length] = possum.qZx(prussian_blue_color, possum.Rlu("plugin_ext=", artemis[arete]));
                   }
 
                   continue;
@@ -1273,38 +1273,38 @@ var leopard = function (llama, louse) {
                   continue;
 
                 case "4":
-                  for (var arete = 0; arete < dark_blue_color["plugins"]["length"]; arete++) {
-                    var asteria = "1|3|4|0|2"["split"]("|"),
+                  for (var arete = 0; arete < dark_blue_color.plugins.length; arete++) {
+                    var asteria = "1|3|4|0|2".split("|"),
                         astraea = 0;
 
-                    while (!![]) {
+                    while (true) {
                       switch (asteria[astraea++]) {
                         case "0":
-                          if (possum["Ias"](typeof atalanta, "undefined")) {
+                          if (possum.Ias(typeof atalanta, "undefined")) {
                             athena = "filename is undefined";
-                          } else if (atalanta["split"](".")["length"] > 1) {
-                            athena = atalanta["split"](".")["pop"]();
+                          } else if (atalanta.split(".").length > 1) {
+                            athena = atalanta.split(".").pop();
                           }
 
                           continue;
 
                         case "1":
-                          if (typeof dark_blue_color["plugins"][arete] === "undefined") {
-                            troilus[troilus["length"]] = possum["qZx"](prussian_blue_color, "plugin_ext=plugins[i] is undefined");
+                          if (typeof dark_blue_color.plugins[arete] === "undefined") {
+                            troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=plugins[i] is undefined");
                             break;
                           }
 
                           continue;
 
                         case "2":
-                          if (possum["ZCJ"](artemis["indexOf"](athena), 0)) {
-                            artemis["push"](athena);
+                          if (possum.ZCJ(artemis.indexOf(athena), 0)) {
+                            artemis.push(athena);
                           }
 
                           continue;
 
                         case "3":
-                          var atalanta = dark_blue_color["plugins"][arete]["filename"];
+                          var atalanta = dark_blue_color.plugins[arete].filename;
                           continue;
 
                         case "4":
@@ -1322,78 +1322,78 @@ var leopard = function (llama, louse) {
               break;
             }
           } catch (aura) {
-            troilus[troilus["length"]] = possum["qZx"](prussian_blue_color, possum["Pib"]("plugin_ext=", aura));
+            troilus[troilus.length] = possum.qZx(prussian_blue_color, possum.Pib("plugin_ext=", aura));
           }
 
           break;
 
         case "function":
-          if (possum["Ias"](zeus, "deviceType")) {
+          if (possum.Ias(zeus, "deviceType")) {
             try {
               var aegle = "";
-              var calliope = navigator["userAgent"];
+              var calliope = navigator.userAgent;
 
-              if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i["test"](calliope)) {
+              if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(calliope)) {
                 aegle = "tablet";
-              } else if (/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/["test"](calliope)) {
+              } else if (/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(calliope)) {
                 aegle = "mobile";
               } else {
                 aegle = "desktop";
               }
 
-              troilus[troilus["length"]] = possum["qZx"](prussian_blue_color, possum["Pib"](possum["Pib"](zeus, "="), aegle));
+              troilus[troilus.length] = possum.qZx(prussian_blue_color, possum.Pib(possum.Pib(zeus, "="), aegle));
             } catch (calypso) {
-              troilus[troilus["length"]] = possum["FBr"](prussian_blue_color, possum["Pib"](possum["HED"](zeus, "=cannot evaluate"), calypso["toString"]()));
+              troilus[troilus.length] = possum.FBr(prussian_blue_color, possum.Pib(possum.HED(zeus, "=cannot evaluate"), calypso.toString()));
             }
           }
 
           break;
       }
 
-      possum["EAb"](ogeechee_limes);
+      possum.EAb(ogeechee_limes);
     }
 
-    return troilus["join"]();
+    return troilus.join();
   }
 
   var cassandra = [["navigator", "exists"], ["navigator.vendor", "value"], ["navigator.appName", "value"], ["navigator.plugins.length==0", "value"], ["navigator.platform", "value"], ["navigator.webdriver", "value"], ["platform", "plugin_extentions"], ["ActiveXObject", "exists"], ["webkitURL", "exists"], ["_phantom", "exists"], ["callPhantom", "exists"], ["chrome", "exists"], ["yandex", "exists"], ["opera", "exists"], ["opr", "exists"], ["safari", "exists"], ["awesomium", "exists"], ["puffinDevice", "exists"], ["__nightmare", "exists"], ["domAutomation", "exists"], ["domAutomationController", "exists"], ["_Selenium_IDE_Recorder", "exists"], ["document.__webdriver_script_fn", "exists"], ["document.$cdc_asdjflasutopfhvcZLmcfl_", "exists"], ["process.version", "exists"], ["global.require", "exists"], ["global.process", "exists"], ["WebAssembly", "exists"], ["require('fs')", "exists"], ["globalThis==global", "value"], ["window.toString()", "value"], ["navigator.cpuClass", "exists"], ["navigator.oscpu", "exists"], ["navigator.connection", "exists"], ["navigator.language=='C'", "value"], ["Object.keys(window).length", "value"], ["window.outerWidth==0", "value"], ["window.outerHeight==0", "value"], ["window.WebGLRenderingContext", "exists"], ["window.constructor.toString()", "value"], ["Boolean(typeof process !== 'undefined' && process.versions && process.versions.node)", "value"], ["document.documentMode", "value"], ["eval.toString().length", "value"], ["navigator.connection.rtt", "value"], ["deviceType", "function"], ["screen.width", "value"], ["screen.height", "value"]];
 
   try {
-    var cassiopeia = "1|5|2|3|9|10|4|6|11|12|7|8|0"["split"]("|"),
+    var cassiopeia = "1|5|2|3|9|10|4|6|11|12|7|8|0".split("|"),
         clio = 0;
 
-    while (!![]) {
+    while (true) {
       switch (cassiopeia[clio++]) {
         case "0":
-          cornflower_blue_color["createElement"]("img")["src"] = possum["icz"]("/_Incapsula_Resource?SWKMTFSR=1&e=", cerulean_blue_color["Math"]["random"]());
+          cornflower_blue_color.createElement("img").src = possum.icz("/_Incapsula_Resource?SWKMTFSR=1&e=", cerulean_blue_color.Math.random());
           continue;
 
         case "1":
           if (electric_blue_color) {
             try {
-              sky_blue_color["log"] = possum["YrP"](farkleberry, electric_blue_color);
+              sky_blue_color.log = possum.YrP(farkleberry, electric_blue_color);
             } catch (cybele) {}
           }
 
           continue;
 
         case "2":
-          possum["rze"](ogeechee_limes);
+          possum.rze(ogeechee_limes);
           continue;
 
         case "3":
-          cassandra["push"](["'v0beecd7fd0ea7e1992a42857c45041545c1dc9b820ba7bf3c65dca7f6c99d3b3'.toString()", "value"]);
+          cassandra.push(["'v0beecd7fd0ea7e1992a42857c45041545c1dc9b820ba7bf3c65dca7f6c99d3b3'.toString()", "value"]);
           continue;
 
         case "4":
           while (--cynthia) {
-            daphne = possum["cTI"](daphne["substr"](1), daphne[0]);
+            daphne = possum.cTI(daphne.substr(1), daphne[0]);
           }
 
           continue;
 
         case "5":
-          if (!cerulean_blue_color["btoa"]) cerulean_blue_color["btoa"] = carolina_blue_color;
+          if (!cerulean_blue_color.btoa) cerulean_blue_color.btoa = carolina_blue_color;
           continue;
 
         case "6":
@@ -1401,13 +1401,13 @@ var leopard = function (llama, louse) {
           continue;
 
         case "7":
-          possum["LCI"](oval_kumquat, possum["LCI"](theseus, cassandra));
+          possum.LCI(oval_kumquat, possum.LCI(theseus, cassandra));
           continue;
 
         case "8":
           if (sapphire_blue_color) {
-            cassandra["push"]([sapphire_blue_color, "value"]);
-            possum["LCI"](oval_kumquat, possum["LCI"](theseus, cassandra));
+            cassandra.push([sapphire_blue_color, "value"]);
+            possum.LCI(oval_kumquat, possum.LCI(theseus, cassandra));
           }
 
           continue;
@@ -1421,12 +1421,12 @@ var leopard = function (llama, louse) {
           continue;
 
         case "11":
-          var demeter = possum["hOK"](daphne["length"], 0);
+          var demeter = possum.hOK(daphne.length, 0);
           continue;
 
         case "12":
           while (--demeter) {
-            delia = possum["XbE"](delia["substr"](1), delia[0]);
+            delia = possum.XbE(delia.substr(1), delia[0]);
           }
 
           continue;
@@ -1435,8 +1435,8 @@ var leopard = function (llama, louse) {
       break;
     }
   } catch (echo) {
-    cornflower_blue_color["createElement"]("img")["src"] = possum["tEB"]("/_Incapsula_Resource?SSATYUBA=jse:", cerulean_blue_color["btoa"](echo["message"]));
+    cornflower_blue_color.createElement("img").src = possum.tEB("/_Incapsula_Resource?SSATYUBA=jse:", cerulean_blue_color.btoa(echo.message));
   } finally {
-    if (electric_blue_color) sky_blue_color["log"] = electric_blue_color;
+    if (electric_blue_color) sky_blue_color.log = electric_blue_color;
   }
 })();

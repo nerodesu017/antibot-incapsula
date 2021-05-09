@@ -101,6 +101,41 @@ const replaceCallExpressionRC4Visitor = {
 
 traverse(AST, replaceCallExpressionRC4Visitor);
 
+const objectSqBracketsToDotNotationVisitor = {
+  MemberExpression(path) {
+    if (types.isStringLiteral(path.node.property)) {
+      let property_name = path.node.property.value;
+      let newNode = types.identifier(property_name);
+      path.node.computed = false;
+      path.node.property = newNode;
+    }
+  }
+}
+
+traverse(AST, objectSqBracketsToDotNotationVisitor);
+
+const unaryExpressionsVisitor = {
+  UnaryExpression(path){
+    if(path.node.operator === '!'){
+      switch(path.node.argument.type){
+        case 'UnaryExpression':
+          if(path.node.argument.argument.type === "ArrayExpression" &&
+              path.node.argument.argument.elements.length === 0){
+                path.replaceWith(types.booleanLiteral(true));
+              }
+          break;
+        case 'ArrayExpression':
+          if(path.node.argument.elements.length === 0){
+            path.replaceWith(types.booleanLiteral(false));
+          }
+          break;
+      }
+    }
+  }
+}
+
+traverse(AST, unaryExpressionsVisitor);
+
 // YOUR VISITORS HERE
 
 const final_code = generate(AST, beautify_opts).code;
