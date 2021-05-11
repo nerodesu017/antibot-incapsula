@@ -136,6 +136,61 @@ const unaryExpressionsVisitor = {
 
 traverse(AST, unaryExpressionsVisitor);
 
+const controlFlowDeflatteningVisitor = {
+  SwitchStatement(path){
+    // First, we check to make sure we are at a good SwitchStatement node
+    if(types.isMemberExpression(path.node.discriminant) &&
+        types.isIdentifier(path.node.discriminant.object) &&
+        types.isUpdateExpression(path.node.discriminant.property) &&
+        path.node.discriminant.property.operator === "++" &&
+        path.node.discriminant.property.prefix === false){
+          // After we've made sure we got to the right node, we'll
+          // make a variable that will hold the cases in their order of execution
+          // and gather them in it
+          let nodesInsideCasesInOrder = [];
+          // we gotta get to the parent of the parent
+          // our SwitchStatement is wrapped inside a BlockStatement
+          // which that BlockStatement is the child of a WhileStatement
+          // which is in turn a child of another BlockStatement
+          // so if we go 3 levels up, we can get the previous 2 nodes 
+          // (the array containing indexes, and index counter)
+          let mainBlockStatement = path.parentPath.parentPath.parentPath;
+          // after we got 3 levels up, we gotta know the index of our
+          // WhileStatement child in the body of the big BlockStatement
+          let whileStatementKey = path.parentPath.parentPath.key;
+          // after that, we can get the array with the cases in their execution order
+          // both are in the save VariableDeclaration node so we substract 1
+          // and get the first VariableDeclarator child
+          let arrayDeclaration = mainBlockStatement.node.body[whileStatementKey - 1].declarations[0];
+          let casesOrderArray = eval(generate(arrayDeclaration.init).code);
+          // next, we remember the order of the cases inside the switch
+          // we'll use a map like this: caseValue -> caseIndex
+          let casesInTheirOrderInSwitch = new Map();
+          for(let i = 0; i < path.node.cases.length; i++){
+            casesInTheirOrderInSwitch.set(path.node.cases[i].test.value, i);
+          }
+          // After we've got the cases test values and the cases' keys, we're ready to go!
+          for(let i = 0; i < casesOrderArray.length; i++){
+            let currentCase = path.node.cases[casesInTheirOrderInSwitch.get(casesOrderArray[i])];
+            for(let j = 0; j < currentCase.consequent.length; j++){
+              // Don't forget to make sure you don't take a hold of
+              // the continue statements
+              if(!types.isContinueStatement(currentCase.consequent[j]))
+              nodesInsideCasesInOrder.push(currentCase.consequent[j]);
+            }
+          }
+          // after we got the nodes, we first delete delete the VariableDeclaration before our WhileStatement
+          mainBlockStatement.get('body')[whileStatementKey - 1].remove();
+          // then we replace the WhileStatement (which has only our SwitchStatement)
+          // with our nodes we've extracted
+          path.parentPath.parentPath.replaceWithMultiple(nodesInsideCasesInOrder);
+        }
+  }
+}
+
+traverse(AST, controlFlowDeflatteningVisitor);
+traverse(AST, controlFlowDeflatteningVisitor);
+
 // YOUR VISITORS HERE
 
 const final_code = generate(AST, beautify_opts).code;

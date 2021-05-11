@@ -221,146 +221,82 @@ var kitten = function (bird, chick) {
       return finch + fish;
     }
   };
-  var fry = "7|3|9|6|4|0|8|2|5|1".split("|"),
-      fingerling = 0;
+  var froglet = {
+    "NgI": function kid(billy, goose) {
+      return crane.QOq(billy, goose);
+    },
+    "bUz": function gosling(gorilla, grasshopper) {
+      return crane.OmC(gorilla, grasshopper);
+    },
+    "FKB": function grouse(poult, squealer) {
+      return crane.UXI(poult, squealer);
+    },
+    "zZG": function cheeper(guinea_pig, pig) {
+      return crane.YIU(guinea_pig, pig);
+    },
+    "gZt": function gull(hamster, hare) {
+      return crane.UmV(hamster, hare);
+    },
+    "PLi": function leveret(hawk, eyas) {
+      return crane.UmV(hawk, eyas);
+    }
+  };
+  var maggot = this.window;
+  var gerbil = maggot.document;
+  var giraffe = maggot.encodeURIComponent;
+  var gnu = "4117162764549966523,3636327242891454285,2039322035887854134,3536122";
+  var fly = new maggot.Date().getTime();
+  var gnat = "start";
+  var polliwog = new maggot.Array(3);
+  var tadpole;
 
-  while (true) {
-    switch (fry[fingerling++]) {
-      case "0":
-        var fly = new maggot.Date().getTime();
-        continue;
+  try {
+    maggot.onunload = function () {
+      polliwog[2] = froglet.NgI("r:", froglet.bUz(new maggot.Date().getTime(), fly));
+      gerbil.createElement("img").src = "/_Incapsula_Resource?ES2LURCT=67&t=78&d=" + froglet.FKB(giraffe, froglet.zZG(froglet.zZG(gnat, " ("), polliwog.join()) + ")");
+    };
 
-      case "1":
-        try {
-          var fox = "1|2|3|5|4|0".split("|"),
-              frog = 0;
-
-          while (true) {
-            switch (fox[frog++]) {
-              case "0":
-                tadpole.send(null);
-                continue;
-
-              case "1":
-                maggot.onunload = function () {
-                  polliwog[2] = froglet.NgI("r:", froglet.bUz(new maggot.Date().getTime(), fly));
-                  gerbil.createElement("img").src = "/_Incapsula_Resource?ES2LURCT=67&t=78&d=" + froglet.FKB(giraffe, froglet.zZG(froglet.zZG(gnat, " ("), polliwog.join()) + ")");
-                };
-
-                continue;
-
-              case "2":
-                if (maggot.XMLHttpRequest) {
-                  tadpole = new maggot.XMLHttpRequest();
-                } else {
-                  tadpole = new maggot.ActiveXObject("Microsoft.XMLHTTP");
-                }
-
-                continue;
-
-              case "3":
-                tadpole.onreadystatechange = function () {
-                  switch (tadpole.readyState) {
-                    case 0:
-                      gnat = froglet.gZt(froglet.bUz(new maggot.Date().getTime(), fly), ": request not initialized");
-                      break;
-
-                    case 1:
-                      gnat = froglet.PLi(froglet.bUz(new maggot.Date().getTime(), fly), ": server connection established");
-                      break;
-
-                    case 2:
-                      gnat = froglet.PLi(froglet.bUz(new maggot.Date().getTime(), fly), ": request received");
-                      break;
-
-                    case 3:
-                      gnat = froglet.bUz(new maggot.Date().getTime(), fly) + ": processing request";
-                      break;
-
-                    case 4:
-                      gnat = "complete";
-                      polliwog[1] = froglet.PLi("c:", new maggot.Date().getTime() - fly);
-
-                      if (tadpole.status == 200) {
-                        maggot.location.reload();
-                      }
-
-                      break;
-                  }
-                };
-
-                continue;
-
-              case "4":
-                tadpole.open("GET", crane.zxm("/_Incapsula_Resource?SWHANEDL=", gnu), false);
-                continue;
-
-              case "5":
-                polliwog[0] = crane.SaK("s:", crane.iZP(new maggot.Date().getTime(), fly));
-                continue;
-            }
-
-            break;
-          }
-        } catch (goat) {
-          gnat += crane.SaK(crane.CUB(new maggot.Date().getTime(), fly) + " incap_exc: ", goat);
-        }
-
-        continue;
-
-      case "2":
-        var polliwog = new maggot.Array(3);
-        continue;
-
-      case "3":
-        var maggot = this.window;
-        continue;
-
-      case "4":
-        var gnu = "4117162764549966523,3636327242891454285,2039322035887854134,3536122";
-        continue;
-
-      case "5":
-        var tadpole;
-        continue;
-
-      case "6":
-        var giraffe = maggot.encodeURIComponent;
-        continue;
-
-      case "7":
-        var froglet = {
-          "NgI": function kid(billy, goose) {
-            return crane.QOq(billy, goose);
-          },
-          "bUz": function gosling(gorilla, grasshopper) {
-            return crane.OmC(gorilla, grasshopper);
-          },
-          "FKB": function grouse(poult, squealer) {
-            return crane.UXI(poult, squealer);
-          },
-          "zZG": function cheeper(guinea_pig, pig) {
-            return crane.YIU(guinea_pig, pig);
-          },
-          "gZt": function gull(hamster, hare) {
-            return crane.UmV(hamster, hare);
-          },
-          "PLi": function leveret(hawk, eyas) {
-            return crane.UmV(hawk, eyas);
-          }
-        };
-        continue;
-
-      case "8":
-        var gnat = "start";
-        continue;
-
-      case "9":
-        var gerbil = maggot.document;
-        continue;
+    if (maggot.XMLHttpRequest) {
+      tadpole = new maggot.XMLHttpRequest();
+    } else {
+      tadpole = new maggot.ActiveXObject("Microsoft.XMLHTTP");
     }
 
-    break;
+    tadpole.onreadystatechange = function () {
+      switch (tadpole.readyState) {
+        case 0:
+          gnat = froglet.gZt(froglet.bUz(new maggot.Date().getTime(), fly), ": request not initialized");
+          break;
+
+        case 1:
+          gnat = froglet.PLi(froglet.bUz(new maggot.Date().getTime(), fly), ": server connection established");
+          break;
+
+        case 2:
+          gnat = froglet.PLi(froglet.bUz(new maggot.Date().getTime(), fly), ": request received");
+          break;
+
+        case 3:
+          gnat = froglet.bUz(new maggot.Date().getTime(), fly) + ": processing request";
+          break;
+
+        case 4:
+          gnat = "complete";
+          polliwog[1] = froglet.PLi("c:", new maggot.Date().getTime() - fly);
+
+          if (tadpole.status == 200) {
+            maggot.location.reload();
+          }
+
+          break;
+      }
+    };
+
+    polliwog[0] = crane.SaK("s:", crane.iZP(new maggot.Date().getTime(), fly));
+    tadpole.open("GET", crane.zxm("/_Incapsula_Resource?SWHANEDL=", gnu), false);
+    tadpole.send(null);
+  } catch (goat) {
+    gnat += crane.SaK(crane.CUB(new maggot.Date().getTime(), fly) + " incap_exc: ", goat);
   }
 })();
 
@@ -752,105 +688,41 @@ var leopard = function (llama, louse) {
         return clementine >> cucumbers;
       }
     };
-    var damson_plum = "5|3|4|2|1|6|0|7".split("|"),
-        dinosaur_eggs = 0;
+    var eggfruit = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    var elderberry, pluots, dates;
+    var entawak, fig, evergreen_huckleberry;
+    dates = neon_blue_color.length;
+    pluots = 0;
+    elderberry = "";
 
-    while (true) {
-      switch (damson_plum[dinosaur_eggs++]) {
-        case "0":
-          while (powder_blue_color.MTY(pluots, dates)) {
-            var dewberries = "3|2|5|6|1|7|8|4|0".split("|"),
-                dragon_fruit = 0;
+    while (powder_blue_color.MTY(pluots, dates)) {
+      entawak = neon_blue_color.charCodeAt(pluots++) & 255;
 
-            while (true) {
-              switch (dewberries[dragon_fruit++]) {
-                case "0":
-                  elderberry += eggfruit.charAt(powder_blue_color.ave(evergreen_huckleberry, 63));
-                  continue;
-
-                case "1":
-                  evergreen_huckleberry = neon_blue_color.charCodeAt(pluots++);
-                  continue;
-
-                case "2":
-                  if (powder_blue_color.iRl(pluots, dates)) {
-                    elderberry += eggfruit.charAt(powder_blue_color.Oxo(entawak, 2));
-                    elderberry += eggfruit.charAt(powder_blue_color.fAX(powder_blue_color.ave(entawak, 3), 4));
-                    elderberry += "==";
-                    break;
-                  }
-
-                  continue;
-
-                case "3":
-                  entawak = neon_blue_color.charCodeAt(pluots++) & 255;
-                  continue;
-
-                case "4":
-                  elderberry += eggfruit.charAt(powder_blue_color.fAX(powder_blue_color.ave(fig, 15), 2) | powder_blue_color.CqT(evergreen_huckleberry & 192, 6));
-                  continue;
-
-                case "5":
-                  fig = neon_blue_color.charCodeAt(pluots++);
-                  continue;
-
-                case "6":
-                  if (powder_blue_color.hNk(pluots, dates)) {
-                    elderberry += eggfruit.charAt(powder_blue_color.Nyr(entawak, 2));
-                    elderberry += eggfruit.charAt(powder_blue_color.tNu(powder_blue_color.vWO(powder_blue_color.ave(entawak, 3), 4), powder_blue_color.Nyr(powder_blue_color.ave(fig, 240), 4)));
-                    elderberry += eggfruit.charAt(powder_blue_color.vWO(powder_blue_color.ave(fig, 15), 2));
-                    elderberry += "=";
-                    break;
-                  }
-
-                  continue;
-
-                case "7":
-                  elderberry += eggfruit.charAt(powder_blue_color.Nyr(entawak, 2));
-                  continue;
-
-                case "8":
-                  elderberry += eggfruit.charAt(powder_blue_color.Hls(powder_blue_color.wse(powder_blue_color.mSG(entawak, 3), 4), powder_blue_color.IHd(powder_blue_color.mSG(fig, 240), 4)));
-                  continue;
-              }
-
-              break;
-            }
-          }
-
-          continue;
-
-        case "1":
-          pluots = 0;
-          continue;
-
-        case "2":
-          dates = neon_blue_color.length;
-          continue;
-
-        case "3":
-          var elderberry, pluots, dates;
-          continue;
-
-        case "4":
-          var entawak, fig, evergreen_huckleberry;
-          continue;
-
-        case "5":
-          var eggfruit = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-          continue;
-
-        case "6":
-          elderberry = "";
-          continue;
-
-        case "7":
-          return elderberry;
-          continue;
+      if (powder_blue_color.iRl(pluots, dates)) {
+        elderberry += eggfruit.charAt(powder_blue_color.Oxo(entawak, 2));
+        elderberry += eggfruit.charAt(powder_blue_color.fAX(powder_blue_color.ave(entawak, 3), 4));
+        elderberry += "==";
+        break;
       }
 
-      break;
+      fig = neon_blue_color.charCodeAt(pluots++);
+
+      if (powder_blue_color.hNk(pluots, dates)) {
+        elderberry += eggfruit.charAt(powder_blue_color.Nyr(entawak, 2));
+        elderberry += eggfruit.charAt(powder_blue_color.tNu(powder_blue_color.vWO(powder_blue_color.ave(entawak, 3), 4), powder_blue_color.Nyr(powder_blue_color.ave(fig, 240), 4)));
+        elderberry += eggfruit.charAt(powder_blue_color.vWO(powder_blue_color.ave(fig, 15), 2));
+        elderberry += "=";
+        break;
+      }
+
+      evergreen_huckleberry = neon_blue_color.charCodeAt(pluots++);
+      elderberry += eggfruit.charAt(powder_blue_color.Nyr(entawak, 2));
+      elderberry += eggfruit.charAt(powder_blue_color.Hls(powder_blue_color.wse(powder_blue_color.mSG(entawak, 3), 4), powder_blue_color.IHd(powder_blue_color.mSG(fig, 240), 4)));
+      elderberry += eggfruit.charAt(powder_blue_color.fAX(powder_blue_color.ave(fig, 15), 2) | powder_blue_color.CqT(evergreen_huckleberry & 192, 6));
+      elderberry += eggfruit.charAt(powder_blue_color.ave(evergreen_huckleberry, 63));
     }
+
+    return elderberry;
   }
 
   function farkleberry(finger_lime) {
@@ -919,46 +791,21 @@ var leopard = function (llama, louse) {
         return mandarin_orange();
       }
     };
-    var mulberry = "2|3|5|0|4|1".split("|"),
-        melon = 0;
+    var oranges = new cerulean_blue_color.Array();
+    var olive = new cerulean_blue_color.RegExp("^\\s?incap_ses_");
+    var navel_orange = cornflower_blue_color.cookie.split(";");
 
-    while (true) {
-      switch (mulberry[melon++]) {
-        case "0":
-          for (var nectarine = 0; lemon.DKb(nectarine, navel_orange.length); nectarine++) {
-            var nashi_pear = navel_orange[nectarine].substr(0, navel_orange[nectarine].indexOf("="));
-            var asian_pear = navel_orange[nectarine].substr(navel_orange[nectarine].indexOf("=") + 1, navel_orange[nectarine].length);
+    for (var nectarine = 0; lemon.DKb(nectarine, navel_orange.length); nectarine++) {
+      var nashi_pear = navel_orange[nectarine].substr(0, navel_orange[nectarine].indexOf("="));
+      var asian_pear = navel_orange[nectarine].substr(navel_orange[nectarine].indexOf("=") + 1, navel_orange[nectarine].length);
 
-            if (olive.test(nashi_pear)) {
-              oranges[oranges.length] = asian_pear;
-            }
-          }
-
-          continue;
-
-        case "1":
-          return oranges;
-          continue;
-
-        case "2":
-          var oranges = new cerulean_blue_color.Array();
-          continue;
-
-        case "3":
-          var olive = new cerulean_blue_color.RegExp("^\\s?incap_ses_");
-          continue;
-
-        case "4":
-          lemon.BIG(ogeechee_limes);
-          continue;
-
-        case "5":
-          var navel_orange = cornflower_blue_color.cookie.split(";");
-          continue;
+      if (olive.test(nashi_pear)) {
+        oranges[oranges.length] = asian_pear;
       }
-
-      break;
     }
+
+    lemon.BIG(ogeechee_limes);
+    return oranges;
   }
 
   function oval_kumquat(papaya) {
@@ -1003,138 +850,76 @@ var leopard = function (llama, louse) {
         return zucchini < abraxas;
       }
     };
-    var achilles = "2|0|6|11|17|7|9|12|5|14|10|15|16|8|1|3|13|18|4".split("|"),
-        adonis = 0;
+    var apollo;
+    var ajax = lime();
+    var castor = new cerulean_blue_color.Array(ajax.length);
 
-    while (true) {
-      switch (achilles[adonis++]) {
-        case "0":
-          var ajax = lime();
-          continue;
-
-        case "1":
-          persimmon.ZKV(ogeechee_limes);
-          continue;
-
-        case "2":
-          var apollo;
-          continue;
-
-        case "3":
-          hedgehog.push(persimmon.lGq(btoa, papaya));
-          continue;
-
-        case "4":
-          persimmon.aEo(argo, "___utmvc", apollo, 20);
-          continue;
-
-        case "5":
-          for (var ares = 0; persimmon.SBn(ares, 4); ares++) {
-            atlas += cadmus[ares];
-          }
-
-          continue;
-
-        case "6":
-          var castor = new cerulean_blue_color.Array(ajax.length);
-          continue;
-
-        case "7":
-          var cadmus = "77+977+977+9PBIrN++/vWfvv70177+9UO+/vW7v";
-          continue;
-
-        case "8":
-          for (var cronus = 0; cronus < damon.length; cronus++) {
-            dionysius += persimmon.SRZ(damon.charCodeAt(cronus), endymion.charCodeAt(persimmon.rEm(cronus, endymion.length))).toString(16);
-          }
-
-          continue;
-
-        case "9":
-          var atlas = "";
-          continue;
-
-        case "10":
-          var eros = "\x88:\xFE\x0F\xCE\x9B\xD3\xB7";
-          var eryx = "";
-          var evander = "";
-
-          for (var griffin = 0; griffin < 3; griffin++) {
-            eryx += eros[griffin];
-          }
-
-          for (var hades = 3; hades < eros.length; hades++) {
-            evander += eros[hades];
-          }
-
-          var hector = "k4>\x18:\xD8\x10'";
-          var helios = "";
-          var herakles = "";
-
-          for (var hermes = 0; hermes < 4; hermes++) {
-            helios += hector[hermes];
-          }
-
-          for (var homer = 4; homer < hector.length; homer++) {
-            herakles += hector[homer];
-          }
-
-          var icarus = "\xA5)_T\x8Eb\x9C\x88";
-          var janus = "";
-          var jason = "";
-
-          for (var leander = 0; leander < 3; leander++) {
-            janus += icarus[leander];
-          }
-
-          for (var morpheus = 3; morpheus < icarus.length; morpheus++) {
-            jason += icarus[morpheus];
-          }
-
-          var damon = leopard("0x5a", helios + herakles);
-          continue;
-
-        case "11":
-          for (var cronus = 0; cronus < ajax.length; cronus++) {
-            castor[cronus] = persimmon.NhU(nereus, persimmon.TBi(papaya, ajax[cronus]));
-          }
-
-          continue;
-
-        case "12":
-          var oceanus = "";
-          continue;
-
-        case "13":
-          apollo = persimmon.tFx(btoa, persimmon.TBi(persimmon.TBi(persimmon.aPL(persimmon.aPL(leopard(persimmon.xVO(hedgehog.length, 1), damon.substr(0, 5)), ",digest="), endymion), ",s="), dionysius));
-          continue;
-
-        case "14":
-          for (var odysseus = 4; persimmon.sWz(odysseus, cadmus.length); odysseus++) {
-            oceanus += cadmus[odysseus];
-          }
-
-          continue;
-
-        case "15":
-          var endymion = castor.join();
-          continue;
-
-        case "16":
-          var dionysius = "";
-          continue;
-
-        case "17":
-          ogeechee_limes();
-          continue;
-
-        case "18":
-          hedgehog.pop();
-          continue;
-      }
-
-      break;
+    for (var cronus = 0; cronus < ajax.length; cronus++) {
+      castor[cronus] = persimmon.NhU(nereus, persimmon.TBi(papaya, ajax[cronus]));
     }
+
+    ogeechee_limes();
+    var cadmus = "77+977+977+9PBIrN++/vWfvv70177+9UO+/vW7v";
+    var atlas = "";
+    var oceanus = "";
+
+    for (var ares = 0; persimmon.SBn(ares, 4); ares++) {
+      atlas += cadmus[ares];
+    }
+
+    for (var odysseus = 4; persimmon.sWz(odysseus, cadmus.length); odysseus++) {
+      oceanus += cadmus[odysseus];
+    }
+
+    var eros = "\x88:\xFE\x0F\xCE\x9B\xD3\xB7";
+    var eryx = "";
+    var evander = "";
+
+    for (var griffin = 0; griffin < 3; griffin++) {
+      eryx += eros[griffin];
+    }
+
+    for (var hades = 3; hades < eros.length; hades++) {
+      evander += eros[hades];
+    }
+
+    var hector = "k4>\x18:\xD8\x10'";
+    var helios = "";
+    var herakles = "";
+
+    for (var hermes = 0; hermes < 4; hermes++) {
+      helios += hector[hermes];
+    }
+
+    for (var homer = 4; homer < hector.length; homer++) {
+      herakles += hector[homer];
+    }
+
+    var icarus = "\xA5)_T\x8Eb\x9C\x88";
+    var janus = "";
+    var jason = "";
+
+    for (var leander = 0; leander < 3; leander++) {
+      janus += icarus[leander];
+    }
+
+    for (var morpheus = 3; morpheus < icarus.length; morpheus++) {
+      jason += icarus[morpheus];
+    }
+
+    var damon = leopard("0x5a", helios + herakles);
+    var endymion = castor.join();
+    var dionysius = "";
+
+    for (var cronus = 0; cronus < damon.length; cronus++) {
+      dionysius += persimmon.SRZ(damon.charCodeAt(cronus), endymion.charCodeAt(persimmon.rEm(cronus, endymion.length))).toString(16);
+    }
+
+    persimmon.ZKV(ogeechee_limes);
+    hedgehog.push(persimmon.lGq(btoa, papaya));
+    apollo = persimmon.tFx(btoa, persimmon.TBi(persimmon.TBi(persimmon.aPL(persimmon.aPL(leopard(persimmon.xVO(hedgehog.length, 1), damon.substr(0, 5)), ",digest="), endymion), ",s="), dionysius));
+    hedgehog.pop();
+    persimmon.aEo(argo, "___utmvc", apollo, 20);
   }
 
   function nereus(olimpio) {
@@ -1231,95 +1016,49 @@ var leopard = function (llama, louse) {
 
         case "plugin_extentions":
           try {
-            var andromeda = "3|1|0|4|2".split("|"),
-                anthea = 0;
+            var artemis = [];
 
-            while (true) {
-              switch (andromeda[anthea++]) {
-                case "0":
-                  try {
-                    var aphrodite = dark_blue_color.plugins.length;
+            try {
+              arete = artemis.indexOf("i");
+            } catch (asia) {
+              troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=indexOf is not a function");
+              break;
+            }
 
-                    if (possum.ABJ(aphrodite, 0) || aphrodite == null) {
-                      troilus[troilus.length] = prussian_blue_color("plugin_ext=no plugins");
-                      break;
-                    }
-                  } catch (ariadne) {
-                    troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=cannot evaluate");
-                    break;
-                  }
+            try {
+              var aphrodite = dark_blue_color.plugins.length;
 
-                  continue;
+              if (possum.ABJ(aphrodite, 0) || aphrodite == null) {
+                troilus[troilus.length] = prussian_blue_color("plugin_ext=no plugins");
+                break;
+              }
+            } catch (ariadne) {
+              troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=cannot evaluate");
+              break;
+            }
 
-                case "1":
-                  try {
-                    arete = artemis.indexOf("i");
-                  } catch (asia) {
-                    troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=indexOf is not a function");
-                    break;
-                  }
-
-                  continue;
-
-                case "2":
-                  for (var arete = 0; possum.Srj(arete, artemis.length); arete++) {
-                    troilus[troilus.length] = possum.qZx(prussian_blue_color, possum.Rlu("plugin_ext=", artemis[arete]));
-                  }
-
-                  continue;
-
-                case "3":
-                  var artemis = [];
-                  continue;
-
-                case "4":
-                  for (var arete = 0; arete < dark_blue_color.plugins.length; arete++) {
-                    var asteria = "1|3|4|0|2".split("|"),
-                        astraea = 0;
-
-                    while (true) {
-                      switch (asteria[astraea++]) {
-                        case "0":
-                          if (possum.Ias(typeof atalanta, "undefined")) {
-                            athena = "filename is undefined";
-                          } else if (atalanta.split(".").length > 1) {
-                            athena = atalanta.split(".").pop();
-                          }
-
-                          continue;
-
-                        case "1":
-                          if (typeof dark_blue_color.plugins[arete] === "undefined") {
-                            troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=plugins[i] is undefined");
-                            break;
-                          }
-
-                          continue;
-
-                        case "2":
-                          if (possum.ZCJ(artemis.indexOf(athena), 0)) {
-                            artemis.push(athena);
-                          }
-
-                          continue;
-
-                        case "3":
-                          var atalanta = dark_blue_color.plugins[arete].filename;
-                          continue;
-
-                        case "4":
-                          var athena = "no extention";
-                          continue;
-                      }
-
-                      break;
-                    }
-                  }
-
-                  continue;
+            for (var arete = 0; arete < dark_blue_color.plugins.length; arete++) {
+              if (typeof dark_blue_color.plugins[arete] === "undefined") {
+                troilus[troilus.length] = possum.qZx(prussian_blue_color, "plugin_ext=plugins[i] is undefined");
+                break;
               }
 
-              break;
+              var atalanta = dark_blue_color.plugins[arete].filename;
+              var athena = "no extention";
+
+              if (possum.Ias(typeof atalanta, "undefined")) {
+                athena = "filename is undefined";
+              } else if (atalanta.split(".").length > 1) {
+                athena = atalanta.split(".").pop();
+              }
+
+              if (possum.ZCJ(artemis.indexOf(athena), 0)) {
+                artemis.push(athena);
+              }
+            }
+
+            for (var arete = 0; possum.Srj(arete, artemis.length); arete++) {
+              troilus[troilus.length] = possum.qZx(prussian_blue_color, possum.Rlu("plugin_ext=", artemis[arete]));
             }
           } catch (aura) {
             troilus[troilus.length] = possum.qZx(prussian_blue_color, possum.Pib("plugin_ext=", aura));
@@ -1359,81 +1098,37 @@ var leopard = function (llama, louse) {
   var cassandra = [["navigator", "exists"], ["navigator.vendor", "value"], ["navigator.appName", "value"], ["navigator.plugins.length==0", "value"], ["navigator.platform", "value"], ["navigator.webdriver", "value"], ["platform", "plugin_extentions"], ["ActiveXObject", "exists"], ["webkitURL", "exists"], ["_phantom", "exists"], ["callPhantom", "exists"], ["chrome", "exists"], ["yandex", "exists"], ["opera", "exists"], ["opr", "exists"], ["safari", "exists"], ["awesomium", "exists"], ["puffinDevice", "exists"], ["__nightmare", "exists"], ["domAutomation", "exists"], ["domAutomationController", "exists"], ["_Selenium_IDE_Recorder", "exists"], ["document.__webdriver_script_fn", "exists"], ["document.$cdc_asdjflasutopfhvcZLmcfl_", "exists"], ["process.version", "exists"], ["global.require", "exists"], ["global.process", "exists"], ["WebAssembly", "exists"], ["require('fs')", "exists"], ["globalThis==global", "value"], ["window.toString()", "value"], ["navigator.cpuClass", "exists"], ["navigator.oscpu", "exists"], ["navigator.connection", "exists"], ["navigator.language=='C'", "value"], ["Object.keys(window).length", "value"], ["window.outerWidth==0", "value"], ["window.outerHeight==0", "value"], ["window.WebGLRenderingContext", "exists"], ["window.constructor.toString()", "value"], ["Boolean(typeof process !== 'undefined' && process.versions && process.versions.node)", "value"], ["document.documentMode", "value"], ["eval.toString().length", "value"], ["navigator.connection.rtt", "value"], ["deviceType", "function"], ["screen.width", "value"], ["screen.height", "value"]];
 
   try {
-    var cassiopeia = "1|5|2|3|9|10|4|6|11|12|7|8|0".split("|"),
-        clio = 0;
-
-    while (true) {
-      switch (cassiopeia[clio++]) {
-        case "0":
-          cornflower_blue_color.createElement("img").src = possum.icz("/_Incapsula_Resource?SWKMTFSR=1&e=", cerulean_blue_color.Math.random());
-          continue;
-
-        case "1":
-          if (electric_blue_color) {
-            try {
-              sky_blue_color.log = possum.YrP(farkleberry, electric_blue_color);
-            } catch (cybele) {}
-          }
-
-          continue;
-
-        case "2":
-          possum.rze(ogeechee_limes);
-          continue;
-
-        case "3":
-          cassandra.push(["'v0beecd7fd0ea7e1992a42857c45041545c1dc9b820ba7bf3c65dca7f6c99d3b3'.toString()", "value"]);
-          continue;
-
-        case "4":
-          while (--cynthia) {
-            daphne = possum.cTI(daphne.substr(1), daphne[0]);
-          }
-
-          continue;
-
-        case "5":
-          if (!cerulean_blue_color.btoa) cerulean_blue_color.btoa = carolina_blue_color;
-          continue;
-
-        case "6":
-          var delia = daphne;
-          continue;
-
-        case "7":
-          possum.LCI(oval_kumquat, possum.LCI(theseus, cassandra));
-          continue;
-
-        case "8":
-          if (sapphire_blue_color) {
-            cassandra.push([sapphire_blue_color, "value"]);
-            possum.LCI(oval_kumquat, possum.LCI(theseus, cassandra));
-          }
-
-          continue;
-
-        case "9":
-          var daphne = "77+977+977+9Ku+/vUnvv71J77+9BGlh77+9exnv";
-          continue;
-
-        case "10":
-          var cynthia = 2;
-          continue;
-
-        case "11":
-          var demeter = possum.hOK(daphne.length, 0);
-          continue;
-
-        case "12":
-          while (--demeter) {
-            delia = possum.XbE(delia.substr(1), delia[0]);
-          }
-
-          continue;
-      }
-
-      break;
+    if (electric_blue_color) {
+      try {
+        sky_blue_color.log = possum.YrP(farkleberry, electric_blue_color);
+      } catch (cybele) {}
     }
+
+    if (!cerulean_blue_color.btoa) cerulean_blue_color.btoa = carolina_blue_color;
+    possum.rze(ogeechee_limes);
+    cassandra.push(["'v0beecd7fd0ea7e1992a42857c45041545c1dc9b820ba7bf3c65dca7f6c99d3b3'.toString()", "value"]);
+    var daphne = "77+977+977+9Ku+/vUnvv71J77+9BGlh77+9exnv";
+    var cynthia = 2;
+
+    while (--cynthia) {
+      daphne = possum.cTI(daphne.substr(1), daphne[0]);
+    }
+
+    var delia = daphne;
+    var demeter = possum.hOK(daphne.length, 0);
+
+    while (--demeter) {
+      delia = possum.XbE(delia.substr(1), delia[0]);
+    }
+
+    possum.LCI(oval_kumquat, possum.LCI(theseus, cassandra));
+
+    if (sapphire_blue_color) {
+      cassandra.push([sapphire_blue_color, "value"]);
+      possum.LCI(oval_kumquat, possum.LCI(theseus, cassandra));
+    }
+
+    cornflower_blue_color.createElement("img").src = possum.icz("/_Incapsula_Resource?SWKMTFSR=1&e=", cerulean_blue_color.Math.random());
   } catch (echo) {
     cornflower_blue_color.createElement("img").src = possum.tEB("/_Incapsula_Resource?SSATYUBA=jse:", cerulean_blue_color.btoa(echo.message));
   } finally {
